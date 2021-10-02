@@ -15,6 +15,15 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
+    {% if sidebar.city %}
+	<div class="city">
+		<ul class="list-unstyled contact-list">
+			<li class="city"><i class="fas fa-map-marker-alt"></i>{{ sidebar.city }}
+			</li>
+		</ul>
+	</div>
+    {% endif %}
+
   </div><!--//profile-container-->
 
   {% include contact.html %}
