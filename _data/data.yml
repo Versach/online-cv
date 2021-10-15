@@ -66,7 +66,7 @@ experiences:
           - Creating of database relations(PostgreSQL) and corresponding mappings(HBM and later Annotations-based)
           - Developing Spring controllers and Struts 2 Actions classes 
           - Refactored monolith project to few libraries and services
-          - Developing websocket communication using Spring websockets, STOMP as protocol, JS(SockJS), RabbitMQ as broker
+          - Developing websocket communication using Spring websockets, STOMP as protocol, JS(SockJS), ActiveMQ as broker
           - Writing native SQL queries
           - Developing repositories using Criteria API and later Spring Data JPA
           - Migrated project to Spring v5 and Hibernate v5.
